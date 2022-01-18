@@ -19,6 +19,9 @@ Starting from the `ChadsList` directory, you will find a pre-coded static page o
 
 ![Demo of ChadsList](./demo.gif)
 
+> ### ⚠️ NOTE ⚠️
+> You should not touch any of the HTML or CSS. You're only allowed to edit the `script.js` file.
+
 ### Make it work
 In order to see your changes directly in the browser without refreshing the page, after installing the `Live server` extention, you will need to navigate to the `index.html` file the click the `Go live` button at the bottom of VS Code, same as what is shown in the extention page [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
@@ -29,4 +32,4 @@ In order to see your changes directly in the browser without refreshing the page
 - [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 - [Learn DOM Manipulation In 18 Minutes](https://www.youtube.com/watch?v=y17RuWkWdn8)
 
-<h3>Happy coding!</h3>
+<h3>Good luck, and happy coding!</h3>
