@@ -22,6 +22,13 @@ Starting from the `ChadsList` directory, you will find a pre-coded static page o
 > ### ⚠️ NOTE ⚠️
 > You should not touch any of the HTML or CSS. You're only allowed to edit the `script.js` file.
 
+## Bonus
+### If your JS code does what its supposed to do perfectly, why not add some bonus stuff to it? 
+Improve your project by adding form validation. Check that the input values should not be either empty, contain special characters, should not be already in the Chad list... etc.
+
+> ### ⚠️ Another NOTE ⚠️
+> In the bonus part, you're allowed to add your own css. Be creative !
+
 ### Make it work
 In order to see your changes directly in the browser without refreshing the page, after installing the `Live server` extention, you will need to navigate to the `index.html` file the click the `Go live` button at the bottom of VS Code, same as what is shown in the extention page [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
