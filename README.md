@@ -9,7 +9,7 @@ Hey There! This Repo is a follow-up to [Awixor](https://github.com/AWIXOR)'s [13
 - [Resources](#resources)
 
 ## Pre-requisites
-### - Checking out [Awixor](https://github.com/AWIXOR)'s [1337-HtML-CSS-workshop](https://github.com/AWIXOR/1337-HtML-CSS-workshop).
+### - Check out [Awixor](https://github.com/AWIXOR)'s [1337-HtML-CSS-workshop](https://github.com/AWIXOR/1337-HtML-CSS-workshop).
 ### - `HTML` basics
 ### - `CSS` basics
 ### - `JavaScript` basics
@@ -20,7 +20,7 @@ Starting from the `ChadsList` directory, you will find a pre-coded static page o
 ![Demo of ChadsList](./demo.gif)
 
 ### Make it work
-In order to see your changes directly in the browser without refreshing the page, after installing the `Live server` extention, you will need to navigate to the `index.html` file the click the `Go live` button at the bottom of the vscode, same as what is shown in the extention page [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+In order to see your changes directly in the browser without refreshing the page, after installing the `Live server` extention, you will need to navigate to the `index.html` file the click the `Go live` button at the bottom of VS Code, same as what is shown in the extention page [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 # Resources
 - [Master HTML (Darija)](https://www.youtube.com/c/ZiroToHero/playlists?view=50&sort=dd&shelf_id=1)

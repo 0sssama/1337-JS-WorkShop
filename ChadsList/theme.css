@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #1B2938;
+	color: #FFFFFF;
+	overflow: auto;
+}
+
+.container {
+	display:flex;
+	align-items:center;
+	flex-direction: column;
+	margin: 0 auto;
+	height:100%;
+	padding: 2rem 2.25rem;
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border: 0;
+	border-collapse: collapse;
+}
+
+table tr:first-child {
+	font-size: 0.95rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fefefe;
+	text-align: left;
+	letter-spacing: .5px;
+	background-color: #243649!important;
+}
+
+table tr th, table tr td {
+	padding: 1.5rem 1.5rem 1.5rem;
+}
+
+table tr td {
+	font-size: 1.15rem;
+	padding: 1.75rem 1.5rem 2.25rem;
+}
+
+table tr:nth-child(odd) {
+	background-color: rgba(36, 54, 73, 0.25);
+}
+
+table tr:not(:first-child) {
+	font-weight: 500;
+}
+
+.align-right {
+	text-align: right!important;;
+}
+
+line {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+	margin: 2.25rem 0 1.75rem;
+	opacity: 0.3;
+}
+
+p.title {
+	padding: 0 0.25rem 2.25rem;
+	font-size: 2.25rem;
+}
+
+form {
+	display: grid;
+	margin: 0 auto;
+	grid-gap: 1rem;
+	width: 100%;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-areas: 
+		"i1"
+		"i2"
+		"i3"
+		"i4"
+		"b";
+}
+
+form input {
+	font-size: .875rem;
+    line-height: 1.25rem;
+	padding: 0.55rem 1rem;
+	border-radius: 0.375rem;
+	background-color: rgba(36, 54, 73, 0.25);
+	color: #FFFFFF;
+	font-weight: 500;
+	outline: none;
+	border: 1px solid #304357;
+	transition: border 400ms ease;
+	width: 100%
+}
+
+form input:focus {
+	border: 1px solid #fff;
+}
+
+form label {
+	font-size: .875rem;
+    line-height: 1.25rem;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 0.35rem;
+}
+
+form .input {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+}
+
+form button {
+	min-height: 20px;
+	outline: none;
+	border: 1px solid #fff;
+	background-color: #fff;
+	color: #1B2938;
+	font-weight: 700;
+	padding: 0.65rem 1.75rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	height:fit-content;
+	transition: opacity 400ms ease;
+	text-transform: uppercase;
+	letter-spacing: .75px;
+}
+
+form button:hover {
+	opacity: .6;
+}
+
+form .button {
+	grid-area: b;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.i-1 {
+	grid-area: i1;
+}
+.i-2 {
+	grid-area: i2;
+}
+.i-3 {
+	grid-area: i3;
+}
+.i-4 {
+	grid-area: i4;
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		width: 700px;
+		padding: 12rem 2.25rem;
+	}
+	form {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 
+		"i1 i2"
+		"i3 i4"
+		"x b";
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.container {
+		padding: 18rem 2.25rem;
+		width: 1200px;
+	}
+}
